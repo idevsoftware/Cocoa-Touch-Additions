@@ -1,8 +1,7 @@
 //
 //  UITextView+RoundedCorners.m
-//  ControlC
 //
-//  Created by Carlos Oliva G. on 31-08-10.
+//  Created by Carlos Oliva G. <carlos@idevsoftware.net> on 31-08-10.
 //  Copyright 2010 iDev Software. All rights reserved.
 //
 

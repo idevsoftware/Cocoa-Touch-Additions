@@ -20,3 +20,26 @@ A collection of assorted categories to common Cocoa Touch classes
    corners and a border
 
 
+ * NSValue+CLLocationCoordinate2D
+
+   Adds methods to NSValue to represent geographical coordinate information 
+   using an NSValue object
+   
+   + (NSValue *)valueWithCLLocationCoordinate2D:(CLLocationCoordinate2D)coordinate;
+   Creates and returns a value object that contains the specified coordinate
+   structure
+   
+   - (CLLocationCoordinate2D)CLLocationCoordinate2DValue
+   Instance method that returns a coordinate structure representing the data
+   in the receiver
+
+
+ * UIWebView+ContentHeight
+
+   Adds an instance method to UIWebView that returns the height of its content
+   measured in pixels
+   
+   - (CGFloat)contentHeight;
+   Returns the height of the rendered content for the receiver measured in
+   pixels
+
