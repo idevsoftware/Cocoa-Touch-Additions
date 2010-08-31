@@ -1,0 +1,22 @@
+A collection of assorted categories to common Cocoa Touch classes
+
+
+ * UIColor+ColorFromString
+
+   Adds a class method to UIColor for creating UIColor objects from a string
+
+   + (UIColor *)colorFromString:(NSString *)string;
+   Class method that returns a color object based on the RGBA components
+   specified as a comma-separated string of decimal (0.0 to 1.0) values, 
+   eg. @"0.5, 0.5, 0.5, 1.0" for 100% opaque gray
+
+
+ * UITextView+RoundedCorners
+
+   Adds an instance method to UITextView to toggle rounded corners appearance
+
+   - (void)setRoundedCorners:(BOOL)rounded;
+   Instance method to specify if the receiver should draw itself with rounded
+   corners and a border
+
+
